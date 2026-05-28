@@ -1,0 +1,9 @@
+{
+  "name": "Kafka Practice",
+  "image": "mcr.microsoft.com/devcontainers/python:3.11",
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {}
+  },
+  "postCreateCommand": "pip install kafka-python && docker compose -f .devcontainer/docker-compose.yml up -d zookeeper kafka",
+  "forwardPorts": [9092, 2181]
+}
