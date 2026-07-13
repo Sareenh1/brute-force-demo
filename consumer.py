@@ -1,7 +1,7 @@
 import json
 from kafka import KafkaConsumer
 
-BROKER   = "localhost:909"
+BROKER   = "localhost:90"
 TOPIC    = "greeting"
 GROUP_ID = "my-consumer-group"
 
