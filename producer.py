@@ -2,7 +2,7 @@ import json, time
 from kafka import KafkaProducer
 
 BROKER = "localhost:909"
-TOPIC  = "greetings"
+TOPIC  = "greeting"
 
 producer = KafkaProducer(
     bootstrap_servers=BROKER,
