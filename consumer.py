@@ -2,7 +2,7 @@ import json
 from kafka import KafkaConsumer
 
 BROKER   = "localhost:909"
-TOPIC    = "greeting"
+TOPIC    = "greetings"
 GROUP_ID = "my-consumer-group"
 
 consumer = KafkaConsumer(
